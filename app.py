@@ -124,9 +124,8 @@ st.markdown(
 "You may need to pip install in our terminal for example pip install vega_datasets \n"
 )
 st.write("Before:")
-from vega_datasets import data
 
-source = data.iowa_electricity()
+source = pd.read_csv("iowa-electricity.csv")
 st.write(source)
 base = alt.Chart(source).mark_area(opacity=0.3).encode(
     x="year:T",
