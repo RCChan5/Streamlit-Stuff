@@ -1,11 +1,6 @@
 import streamlit as st
-import altair as alt
 import numpy as np  
 import pandas as pd
-from sklearn import linear_model
-import matplotlib.pyplot as plt
-import seaborn as sns
-from scipy import stats
 
 
 st.title('Skill usage vs degree')
