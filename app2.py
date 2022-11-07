@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np  
 import pandas as pd
-
+import altair as alt
 
 st.title('Skill usage vs degree')
 st.write("This is a chart I used for the midterm assignment, now made in python and using streamlit")
