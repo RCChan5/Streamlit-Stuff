@@ -1,5 +1,2 @@
-pandas==1.1.5
-numpy==1.19.5
-matplotlib==3.6.2
-pandas==1.4.4
-WordCloud==1.8.2.2
+altair==4.2.0
+wordcloud==1.8.2.2
