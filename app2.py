@@ -1,7 +1,12 @@
 import streamlit as st
+import altair as alt
 import numpy as np  
 import pandas as pd
-import altair as alt
+from sklearn import linear_model
+import matplotlib.pyplot as plt
+import seaborn as sns
+from scipy import stats
+
 
 st.title('Skill usage vs degree')
 st.write("This is a chart I used for the midterm assignment, now made in python and using streamlit")
